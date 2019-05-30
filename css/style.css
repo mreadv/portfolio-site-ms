@@ -1,0 +1,65 @@
+body {
+  font-family: "karla", sans-serif;
+  color: #095256;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+
+/*****     HEADER     *****/
+
+header {
+  background: url('../images/hero-image.png');
+  background-size: cover;
+  height: 800px;
+}
+
+.header-headings {
+  font-family: "karla", sans-serif;
+  text-align: center;
+  padding: 300px 200px 300px 200px;
+}
+
+header h1 {
+  color: #510746;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header h2 {
+  color: #095256;
+  font-size: 20px;
+}
+
+nav {
+  float: right;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  color: #510746;
+  padding-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
