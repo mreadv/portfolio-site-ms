@@ -3,20 +3,26 @@ body {
   color: #095256;
 }
 
+#about, #work, #contact {
+  height: 600px;
+}
+
 .full-width {
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 600px;
+  width: 700px;
   float: left;
 }
 
 .third-width {
-  width: 400px;
+  width: 466px;
   float: left;
 }
+
+
 
 
 
@@ -31,7 +37,7 @@ header {
 .header-headings {
   font-family: "karla", sans-serif;
   text-align: center;
-  padding: 300px 200px 300px 200px;
+  padding: 340px 200px 300px 200px;
 }
 
 header h1 {
@@ -43,13 +49,14 @@ header h1 {
 
 header h2 {
   color: #095256;
-  font-size: 20px;
+  font-size: 22px;
+  padding-left: 270px;
+  padding-right: 270px;
 }
 
 nav {
   float: right;
   padding-right: 100px;
-  padding-top: 40px;
 }
 
 nav ul li {
@@ -61,5 +68,38 @@ nav ul li a{
   padding-left: 50px;
   text-decoration: none;
   text-transform: uppercase;
+}
 
+
+/*****     WORK     *****/
+
+#work .full-width {
+  clear: both;
+  overflow:
+}
+
+#work h3 {
+  color: #095256;
+  font-family: "georgia", serif;
+  margin: 60px;
+  text-align: center;
+}
+
+#work .half-width img {
+  padding-left: 100px;
+  width: 550px;
+}
+
+#work .half-width h4,p {
+  width: 550px;
+}
+
+#work h4 {
+  margin-bottom: -15px;
+  margin-top: -3px;
+}
+
+#about {
+  clear: both;
+  margin-top: 
 }
