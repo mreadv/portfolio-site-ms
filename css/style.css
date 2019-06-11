@@ -75,7 +75,10 @@ nav ul li a{
 
 #work .full-width {
   clear: both;
-  overflow:
+}
+
+#work .half-width {
+  margin-bottom: 30px;
 }
 
 #work h3 {
@@ -90,7 +93,8 @@ nav ul li a{
   width: 550px;
 }
 
-#work .half-width h4,p {
+#work .half-width h4, #work .half-width p {
+  color: #095256;
   width: 550px;
 }
 
@@ -99,7 +103,30 @@ nav ul li a{
   margin-top: -3px;
 }
 
-#about {
+
+/***** ABOUT *****/
+
+
+#about  {
   clear: both;
-  margin-top: 
+  background: #087e8b;
+  padding-top: 10px;
+}
+
+
+#about h3 {
+  color: #FFFFFF;
+  font-family: "georgia", serif;
+  margin: 60px;
+  text-align: center;
+}
+
+#about .half-width img {
+  padding-left: 100px;
+  width: 550px;
+}
+
+#about .half-width h4, #about .half-width p {
+  color: #ffffff;
+  width: 550px;
 }
