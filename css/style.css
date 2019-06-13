@@ -18,8 +18,12 @@ body {
 }
 
 .third-width {
-  width: 466px;
+  width: 433px;
   float: left;
+}
+
+.third-container {
+  padding-left: 100px;
 }
 
 
@@ -129,4 +133,23 @@ nav ul li a{
 #about .half-width h4, #about .half-width p {
   color: #ffffff;
   width: 550px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background: yellow;
+  clear: both;
+}
+
+#contact .full-width {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+#contact .third-width  {
+  padding-left;
+  text-align: center;
 }
