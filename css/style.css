@@ -3,18 +3,26 @@ body {
   color: #095256;
 }
 
-#about, #work, #contact {
+#about,  #contact {
   height: 600px;
+}
+
+#work {
+  height: 1300px;
 }
 
 .full-width {
   width: 1400px;
   margin: 0 auto;
+
+
 }
 
 .half-width {
   width: 700px;
   float: left;
+
+
 }
 
 .third-width {
@@ -23,7 +31,9 @@ body {
 }
 
 .third-container {
-  padding-left: 100px;
+  padding-left: 40px;
+  width: 1360px;
+  margin: 0 auto;
 }
 
 
@@ -33,34 +43,43 @@ body {
 /*****     HEADER     *****/
 
 header {
-  background: url('../images/hero-image.png');
+  background: url('../images/hero-image-desk-clean-web-850.png');
   background-size: cover;
-  height: 800px;
+  height: 850px;
+  border-bottom: 5px solid #f9cc61;
 }
 
 .header-headings {
   font-family: "karla", sans-serif;
   text-align: center;
-  padding: 340px 200px 300px 200px;
+  padding: 300px 200px 0px 200px;
 }
 
 header h1 {
   color: #510746;
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 header h2 {
-  color: #095256;
-  font-size: 22px;
-  padding-left: 270px;
-  padding-right: 270px;
+  color: #253d63;
+  font-size: 30px;
+  padding-left: 240px;
+  padding-right: 240px;
+
 }
 
 nav {
+  background-color: #2B0433;
+  border-radius: 5px;
   float: right;
-  padding-right: 100px;
+  height: 50px;
+  margin: 365px 80px 20px 20px;
+  padding-right: 6px;
+
+
+
 }
 
 nav ul li {
@@ -68,26 +87,39 @@ nav ul li {
 }
 
 nav ul li a{
-  color: #510746;
-  padding-left: 50px;
+  color: #FBFAEB;
+  padding-left: 25px;
+  padding-right: 25px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
+nav ul li a:hover {
+  color: #2B0433;
+  background: #FBFAEB;
+  border-radius: 5px;
+}
+
 
 /*****     WORK     *****/
+
+#work {
+  margin-top: 120px;
+}
+
 
 #work .full-width {
   clear: both;
 }
 
 #work .half-width {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 #work h3 {
-  color: #095256;
+  color: #2B0433;
   font-family: "georgia", serif;
+  font-size: 28px;
   margin: 60px;
   text-align: center;
 }
@@ -98,7 +130,7 @@ nav ul li a{
 }
 
 #work .half-width h4, #work .half-width p {
-  color: #095256;
+  color: #2B0433;
   width: 550px;
 }
 
@@ -113,34 +145,50 @@ nav ul li a{
 
 #about  {
   clear: both;
-  background: #087e8b;
+  background-color: #FBFAEB;
   padding-top: 10px;
 }
 
 
 #about h3 {
-  color: #FFFFFF;
+  color: #2B0433;
   font-family: "georgia", serif;
   margin: 60px;
   text-align: center;
 }
 
 #about .half-width img {
-  padding-left: 100px;
+  margin-left: 100px;
   width: 550px;
+  border: 3px solid #f9cc61;
 }
 
 #about .half-width h4, #about .half-width p {
-  color: #ffffff;
+  color: #2B0433;
   width: 550px;
 }
+
+#about h4 {
+  margin-bottom: 15px;
+  margin-top: -3px;
+}
+
+#about p {
+  line-height: 1.4em;
+}
+
 
 
 /***** CONTACT *****/
 
 #contact {
-  background: yellow;
+  background: #2B0433;
   clear: both;
+  color: #f7f5e6;
+}
+
+#contact .third-container {
+  padding:
 }
 
 #contact .full-width {
@@ -150,6 +198,23 @@ nav ul li a{
 
 
 #contact .third-width  {
-  padding-left;
   text-align: center;
+}
+
+#contact h3 {
+  color: #FBFAEB;
+  font-family: "georgia", serif;
+  margin: 60px;
+  text-align: center;
+}
+
+
+#contact ul li {
+  display: inline-block;
+  list-style: none;
+
+}
+
+#contact ul img {
+  padding-right: 45px;
 }
