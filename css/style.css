@@ -71,15 +71,11 @@ header h2 {
 }
 
 nav {
-  background-color: #2B0433;
   border-radius: 5px;
   float: right;
   height: 50px;
-  margin: 365px 80px 20px 20px;
+  margin: 350px 80px 20px 20px;
   padding-right: 6px;
-
-
-
 }
 
 nav ul li {
@@ -87,7 +83,7 @@ nav ul li {
 }
 
 nav ul li a{
-  color: #FBFAEB;
+  color: #2B0433;
   padding-left: 25px;
   padding-right: 25px;
   text-decoration: none;
@@ -95,8 +91,8 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  color: #2B0433;
-  background: #FBFAEB;
+  color: #FBFAEB;
+  background: #2B0433;
   border-radius: 5px;
 }
 
@@ -118,8 +114,9 @@ nav ul li a:hover {
 
 #work h3 {
   color: #2B0433;
-  font-family: "georgia", serif;
-  font-size: 28px;
+  font-family: "Barlow", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
   margin: 60px;
   text-align: center;
 }
@@ -146,13 +143,17 @@ nav ul li a:hover {
 #about  {
   clear: both;
   background-color: #FBFAEB;
+  border-top: 3px solid #f9cc61;
+
   padding-top: 10px;
 }
 
 
 #about h3 {
   color: #2B0433;
-  font-family: "georgia", serif;
+  font-family: "Barlow", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
   margin: 60px;
   text-align: center;
 }
@@ -203,7 +204,9 @@ nav ul li a:hover {
 
 #contact h3 {
   color: #FBFAEB;
-  font-family: "georgia", serif;
+  font-family: "Barlow", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
   margin: 60px;
   text-align: center;
 }
