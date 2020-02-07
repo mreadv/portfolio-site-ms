@@ -13,71 +13,88 @@ body {
 }
 
 .full-width {
-  width: 1400px;
+  width: 1200px;
   margin: 0 auto;
-
-
 }
 
 .half-width {
-  width: 699px;
+  width: 599px;
   float: left;
-
-
 }
 
 .third-width {
-  width: 433px;
+  width: 399px;
   float: left;
 }
 
 .third-container {
-  padding-left: 40px;
-  width: 1360px;
+  /* padding-left: 20px; */
+  width: 1200px;
   margin: 0 auto;
 }
-
-
-
 
 
 /*****     HEADER     *****/
 
 header {
-  background: url('../images/hero-image-desk-clean-web.png');
-  background-size: cover;
-  height: 850px;
-  border-bottom: 5px solid #2B0433;
+  margin: 0 auto;
+  width: 1200px;
 }
 
-.header-headings {
+header  img {
+  width: 1200px;
+}
+
+.header-top {
+  background-color: #1f3c64;
   font-family:  "noto sans sc", sans-serif;
-
-  text-align: center;
-  padding: 300px 200px 0px 200px;
+  height: 100px;
+  opacity: 0.5;
+  padding: 0px;
+  text-align: left;
 }
+
+.header-bottom {
+  background: url('../images/gc-cropped-edit.jpg');
+  background-repeat: no-repeat;
+  height: 492px;
+}
+
 
 header h1 {
-  color: #510746;
-  font-size: 40px;
+  color: #FBFAEB;
+  display: inline-block;
+  font-size: 24px;
   font-weight: 700;
-  text-transform: uppercase;
+  margin-bottom: 10px;
+    margin-top: 30px;
+  padding-left: 40px;
+
+
 }
 
 header h2 {
-  color: #253d63;
-  font-size: 30px;
-  padding-left: 240px;
-  padding-right: 240px;
-
+  color: #1f3c64;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 120px 0px 0px 25px;
+  text-align: center;
 }
+
+/*
+.header-bottom {
+  background-color: #1f3c64;
+  opacity: 0.5;
+  height: 150px;
+} */
 
 nav {
   border-radius: 5px;
-  float: right;
-  height: 50px;
-  margin: 320px 80px 20px 20px;
+  display: inline-block;
+  margin-left: 330px;
+  margin-right: 20px;
   padding-right: 6px;
+
 }
 
 nav ul li {
@@ -85,7 +102,7 @@ nav ul li {
 }
 
 nav ul li a{
-  color: #2B0433;
+  color: #FBFAEB;
   padding-left: 25px;
   padding-right: 25px;
   text-decoration: none;
@@ -93,18 +110,28 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-  color: #FBFAEB;
-  background: #2B0433;
+
+  /* For hover over effect with background change */
+  color: #1f3c64;
+  background: #FBFAEB;
   border-radius: 5px;
+  /*
+  For hover over effect with line above and below
+  color: #FBFAEB;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  */
+
 }
 
 
 /*****     WORK     *****/
 
 #work {
-  background-color: #f2f2ec;
- background-image: linear-gradient(to top, #FBFAEB 0%, #ffffff 32%, #FBFAEB 100%);
-  background-blend-mode: soft-light,screen;
+/*background-color: #ebe8d7;
+ background-image: linear-gradient(to top, #b5aa9e  0%, #ffffff 62%, #b5aa9e 100%);
+  background-blend-mode: soft-light,screen;*/
+  background-color: #102847 ;
   padding-top: 40px;
 }
 
@@ -118,23 +145,24 @@ nav ul li a:hover {
 }
 
 #work h3 {
-  color: #2B0433;
+  color: #fbfaeb;
   font-family: "noto sans sc", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  margin: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   text-align: center;
 
 }
 
 #work .half-width img {
   margin-left: 100px;
-  width: 550px;
+  width: 450px;
   background-color: white;
 }
 
 #work .half-width h4, #work .half-width p {
-  color: #2B0433;
+  color: #fbfaeb;
   width: 550px;
 
 }
@@ -203,13 +231,16 @@ nav ul li a:hover {
 /***** CONTACT *****/
 
 #contact {
-  background: #2B0433;
+
+  background-color: #102847;
   clear: both;
   color: #f7f5e6;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 #contact .third-container {
-  padding:
+  padding: 0px;
 }
 
 #contact .full-width {
@@ -231,6 +262,9 @@ nav ul li a:hover {
   text-align: center;
 }
 
+#contact ul {
+  padding-left: 25px;
+}
 
 #contact ul li {
   display: inline-block;
@@ -243,7 +277,7 @@ font-weight: 700;
 }
 
 #contact ul img {
-  padding-right: 45px;
+  padding-right: 20px;
 }
 
 /***
