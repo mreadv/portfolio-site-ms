@@ -9,7 +9,7 @@ body {
 }
 
 #work {
-  height: 1440px;
+  height: 1200px;
 }
 
 .full-width {
@@ -78,7 +78,7 @@ header h2 {
   font-size: 36px;
   font-weight: 300;
   margin: 0px;
-  padding: 120px 0px 0px 25px;
+  padding: 220px 0px 0px 25px;
   text-align: center;
 }
 
@@ -133,7 +133,8 @@ nav ul li a:hover {
  background-image: linear-gradient(to top, #b5aa9e  0%, #ffffff 62%, #b5aa9e 100%);
   background-blend-mode: soft-light,screen;*/
   background-color: #102847 ;
-  padding-top: 40px;
+  border: solid 1px red;
+  padding-top: 0px;
 }
 
 
@@ -146,12 +147,13 @@ nav ul li a:hover {
 }
 
 #work h3 {
+  border: solid 1px red;
   color: #fbfaeb;
   font-family: "noto sans sc", sans-serif;
-  font-size: 26px;
+  font-size: 26px;0
   font-weight: 700;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   text-align: center;
 
 }
@@ -280,6 +282,9 @@ font-weight: 700;
 #contact ul img {
   padding-right: 20px;
 }
+
+
+
 
 /***
 background-color: #DCD9D4;
