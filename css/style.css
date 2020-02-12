@@ -75,7 +75,7 @@ header h1 {
 
 header h2 {
   color: #1f3c64;
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 300;
   margin: 0px;
   padding: 220px 0px 0px 25px;
@@ -132,8 +132,8 @@ nav ul li a:hover {
 /*background-color: #ebe8d7;
  background-image: linear-gradient(to top, #b5aa9e  0%, #ffffff 62%, #b5aa9e 100%);
   background-blend-mode: soft-light,screen;*/
-  background-color: #364255 ;
-  border: solid 1px red;
+  background-color: #364255;
+  border: solid 1px #364255;
   padding-top: 0px;
 }
 
@@ -147,10 +147,9 @@ nav ul li a:hover {
 }
 
 #work h3 {
-  border: solid 1px red;
   color: #fbfaeb;
   font-family: "noto sans sc", sans-serif;
-  font-size: 26px;0
+  font-size: 26px;
   font-weight: 700;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -191,9 +190,13 @@ nav ul li a:hover {
 
 
 #about  {
+  /*background-color: #fffcf3;*/
+  background: rgb(251,248,255);
+background: linear-gradient(180deg, rgba(251,248,255,1) 0%, rgba(245,241,229,1) 67%, rgba(244,249,252,1) 100%);
   clear: both;
-  border-top: 3px solid #f9cc61;
+  margin: 0 auto;
   padding-top: 10px;
+  width: 1200px;
 }
 
 
@@ -208,9 +211,9 @@ nav ul li a:hover {
 }
 
 #about .half-width img {
-  margin-left: 100px;
-  width: 550px;
-  border: 3px solid #f9cc61;
+  margin-left: 200px;
+  width: 300px;
+  border: 3px solid #364255;
 }
 
 #about .half-width h4, #about .half-width p {
@@ -235,7 +238,7 @@ nav ul li a:hover {
 
 #contact {
 
-  background-color: #102847;
+  background-color: #364255;
   clear: both;
   color: #f7f5e6;
   margin: 0 auto;
@@ -283,6 +286,9 @@ font-weight: 700;
   padding-right: 20px;
 }
 
+#contact p {
+  text-decoration: none;
+}
 
 
 
