@@ -67,7 +67,7 @@ header h1 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 10px;
-    margin-top: 30px;
+  margin-top: 30px;
   padding-left: 40px;
 
 
@@ -81,13 +81,6 @@ header h2 {
   padding: 220px 0px 0px 25px;
   text-align: center;
 }
-
-/*
-.header-bottom {
-  background-color: #1f3c64;
-  opacity: 0.5;
-  height: 150px;
-} */
 
 nav {
   border-radius: 5px;
@@ -116,12 +109,11 @@ nav ul li a:hover {
   color: #1f3c64;
   background: #FBFAEB;
   border-radius: 5px;
-  /*
-  For hover over effect with line above and below
+  
+  /* For hover over effect with line above and below
   color: #FBFAEB;
   border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  */
+  border-bottom: 1px solid white; */
 
 }
 
@@ -129,9 +121,6 @@ nav ul li a:hover {
 /*****     WORK     *****/
 
 #work {
-/*background-color: #ebe8d7;
- background-image: linear-gradient(to top, #b5aa9e  0%, #ffffff 62%, #b5aa9e 100%);
-  background-blend-mode: soft-light,screen;*/
   background-color: #364255;
   border: solid 1px #364255;
   padding-top: 0px;
@@ -154,7 +143,6 @@ nav ul li a:hover {
   padding-bottom: 30px;
   padding-top: 30px;
   text-align: center;
-
 }
 
 #work .half-width img {
@@ -166,7 +154,6 @@ nav ul li a:hover {
 #work .half-width h4, #work .half-width p {
   color: #fbfaeb;
   width: 550px;
-
 }
 
 #work p {
@@ -190,14 +177,17 @@ nav ul li a:hover {
 
 
 #about  {
-  /*background-color: #fffcf3;*/
+  background-color: #f3ece5;
+  /*
   background: rgb(251,248,255);
-background: linear-gradient(180deg, rgba(251,248,255,1) 0%, rgba(245,241,229,1) 67%, rgba(244,249,252,1) 100%);
+  background: linear-gradient(180deg, rgba(251,248,255,1) 0%, rgba(245,241,229,1) 67%, rgba(244,249,252,1) 100%);
+  */
   clear: both;
   margin: 0 auto;
   padding-top: 10px;
   width: 1200px;
 }
+
 
 
 #about h3 {
@@ -234,7 +224,7 @@ background: linear-gradient(180deg, rgba(251,248,255,1) 0%, rgba(245,241,229,1) 
 
 
 
-/***** CONTACT *****/
+/***** CONTACT (footer) *****/
 
 #contact {
 
@@ -286,16 +276,7 @@ font-weight: 700;
   padding-right: 20px;
 }
 
-#contact p {
+#contact p a {
   text-decoration: none;
+  color: #fbfaeb;
 }
-
-
-
-/***
-background-color: #DCD9D4;
- background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
- background-blend-mode: soft-light,screen;
- ***/
-
- background-image: linear-gradient(-20deg, #f2f2ec 0%, #2B0433 100%);
